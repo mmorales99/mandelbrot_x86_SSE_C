@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mandel_C.c">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="mandelbrot_x86_64.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
@@ -27,7 +24,10 @@
     <ClCompile Include="mandelbrot_SSE.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="paint.c">
+    <ClCompile Include="paint.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="mandel_C.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

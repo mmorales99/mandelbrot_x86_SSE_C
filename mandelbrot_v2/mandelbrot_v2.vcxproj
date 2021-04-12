@@ -142,8 +142,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mandelbrot_SSE.cpp" />
     <ClCompile Include="mandelbrot_x86_64.cpp" />
-    <ClCompile Include="mandel_C.c" />
-    <ClCompile Include="paint.c" />
+    <ClCompile Include="mandel_C.cpp" />
+    <ClCompile Include="paint.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

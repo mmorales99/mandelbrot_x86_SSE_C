@@ -1,0 +1,4 @@
+﻿  mandelbrot_x86_64.cpp
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(88,7): error C2094: la etiqueta 'LK' no estaba definida
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(92,6): error C2094: la etiqueta 'LQ' no estaba definida
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(95,1): warning C4102: 'L_K': etiqueta sin referencia
