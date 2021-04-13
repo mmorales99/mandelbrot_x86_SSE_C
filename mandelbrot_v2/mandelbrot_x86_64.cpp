@@ -128,32 +128,24 @@ inline /*struct int_arr*/ void mandelbrot_x86(
 			fstp temp
 			fld temp
 			fadd y2
-			fstp temp
-			fld temp
 			ficomp r
 			ja Salida_S
 
-			mov EAX, iteraciones
-			sub EAX, k
-			mov EDX, EAX
+			mov EDX, k
 			add k, 1
-			cmp edx, 0
-			ja L_K
+			cmp edx, iteraciones
+			jb L_K
 
 		Salida_S :
-			mov EAX, imax
-			sub EAX, q
-			mov EDX, EAX
+			mov EDX, q
 			add q, 1
-			cmp edx, 0
-			ja L_Q
+			cmp edx, imax
+			jb L_Q
 
-		mov EAX, rmax
-		sub EAX, p
-		mov EDX, EAX
+		mov EDX, p
 		add p, 1
-		cmp edx, 0
-		ja L_P
+		cmp edx, rmax
+		jb L_P
 	}
 	/*
 	for (size_t i = 0; i < (xpixels + ypixels); i++) {
