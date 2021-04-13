@@ -48,20 +48,20 @@ int main(int argc, char** argv) {
 	/*struct int_arr gradientMap = */
 	mandelbrot_SSE(1,xpixels,1,ypixels,3000);
 	end = clock();
-	ff << "SSE NEEDED: " << difftime(end, start) << " SECONDS.\n";
-	cout << "SSE NEEDED: " << difftime(end, start) << " SECONDS.\n";
+	ff << "SSE NEEDED: " << difftime(end, start) << " MILISECONDS.\n";
+	cout << "SSE NEEDED: " << difftime(end, start) << " MILISECONDS.\n";
 	//draw(gradientMap,"mandelbrot_sse");
 	start = clock();
 	/*gradientMap = */mandelbrot_x86(1, xpixels, 1, ypixels, 3000);
 	end = clock();
-	ff << "x86 NEEDED: " << difftime(end, start) << " SECONDS.\n";
-	cout << "x86 NEEDED: " << difftime(end, start) << " SECONDS.\n";
+	ff << "x86 NEEDED: " << difftime(end, start) << " MILISECONDS.\n";
+	cout << "x86 NEEDED: " << difftime(end, start) << " MILISECONDS.\n";
 	//draw(gradientMap,"mandelbrot_x86");
 	start = clock();
 	vector<int> gradientMap = mandelbrot_C(1, xpixels, 1, ypixels, 3000);
 	end = clock();
-	ff << "C++ NEEDED: " << difftime(end, start) << " SECONDS.\n";
-	cout << "C++ NEEDED: " << difftime(end, start) << " SECONDS.\n";
+	ff << "C++ NEEDED: " << difftime(end, start) << " MILISECONDS.\n";
+	cout << "C++ NEEDED: " << difftime(end, start) << " MILISECONDS.\n";
 	//draw(gradientMap,"mandelbrot_cpp");
 	ff.close();
 }

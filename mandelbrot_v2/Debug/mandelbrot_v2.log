@@ -1,4 +1,31 @@
-﻿  mandelbrot_x86_64.cpp
-C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(88,7): error C2094: la etiqueta 'LK' no estaba definida
-C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(92,6): error C2094: la etiqueta 'LQ' no estaba definida
-C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(95,1): warning C4102: 'L_K': etiqueta sin referencia
+﻿  main.cpp
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(34,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(34,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(35,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(35,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(36,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(36,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(37,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(37,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(44,33): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(44,17): warning C4244: 'inicializando': conversión de 'int' a 'const float'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(45,33): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(45,17): warning C4244: 'inicializando': conversión de 'int' a 'const float'; posible pérdida de datos
+  mandelbrot_SSE.cpp
+  mandelbrot_x86_64.cpp
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(34,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(34,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(35,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(35,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(36,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(36,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(37,19): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(37,17): warning C4244: 'inicializando': conversión de 'float' a 'const int'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(44,33): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(44,17): warning C4244: 'inicializando': conversión de 'int' a 'const float'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(45,33): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\mandelbrot_v2\mandelbrot_x86_64.cpp(45,17): warning C4244: 'inicializando': conversión de 'int' a 'const float'; posible pérdida de datos
+  mandel_C.cpp
+  paint.cpp
+  Generando código...
+  mandelbrot_v2.vcxproj -> C:\Users\amat_\Desktop\AC\mandelbrot\mandelbrot_v2\Debug\mandelbrot_v2.exe
